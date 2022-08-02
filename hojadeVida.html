@@ -6,53 +6,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>andres garcia</title>
   <link rel="stylesheet" href="stile.css">
+  <script src="script.js"></script>
 </head>
 <body>
 <header>
   <h1>hoja de vida</h1>
 </header>
 <nav>
-  <button>boton</button>
-  <button>boton</button>
-  <button>boton</button>
+  <button onClick="Mycolor()">hoja de vida 1</button>
+  <button onClick="Mycolor1()">hoja de vida 2</button>
+  <button onClick="Mycolor2()">hoja de vida 3</button>
 </nav>
+<br/>  
+  
 <article>
-  <img src="wwerdfd.jpg" alt="imagen">
-  <h3> <b>Información principal</b> </h3>
-  <p>yo Andre  etc..</p>
-  <h4> <b>Experiencia laboral </b> </h4> 
-  <ul>
-      <li><a href="#">andres company</a></li>
-      <li><a href="#">la taberna de mou</a></li>
-      <li><a href="#">disney</a></li>
-      <li><a href="#">narnia</a></li>
+  <img id="ima" src="wwerdfd.jpg" alt="imagen">
+  
+  <h3> <b>Información principal</b> </h3> 
+  <p id="info" style="color: #eee;">yo Andre  etc..</p> 
+  <br/>  
+  <button class="accordion">Experiencia laboral</button>
+  <div class="panel">
+    <ul>
+      <li><a id="l1" href="#">andres company</a></li>
+      <li><a id="l2" href="#">la taberna de mou</a></li>
+      <li><a id="l3" href="#">disney</a></li>
+      <li><a id="l4" href="#">narnia</a></li>
   </ul>
-  <h4> <b>Referencias personales </b> </h4>
+  </div>
+  
+  <button class="accordion">Referencias personales</button>
+  <div class="panel">
+    
   <ul>
-    <li><a href="#">juli</a></li>
-    <li><a href="#">juan</a></li>
-    <li><a href="#">juancho</a></li>
+    <li><a id="p1" href="#">juli</a></li>
+    <li><a id="p2"href="#">juan</a></li>
+    <li><a id="p3" href="#">juancho</a></li>
  
 </ul>
-  <h4> <b>Referencias familiares </b> </h4> 
-  <ul>
-      <li><a href="#">batman</a></li>
-      <li><a href="#">spiderman</a></li>
-      <li><a href="#">flash</a></li>
+  </div>
+  
+  <button class="accordion">Referencias familiares</button>
+  <div class="panel">
+    
+    <ul>
+      <li><a id="f1" href="#">batman</a></li>
+      <li><a id="f2" href="#">spiderman</a></li>
+      <li><a id="f3" href="#">flash</a></li>
   
   </ul>
-  <h4> <b>Estudios realizados</b> </h4> 
-  <ul>
-      <li><a href="#">ing padimentacion aherea</a></li>
-      <li><a href="#">ing desarrollador en martes</a></li>
+  </div>
+
+  <button class="accordion">Estudios realizados</button>
+  <div class="panel">
     
-  </ul>
+  <ul>
+    <li><a id="e1" href="#">ing padimentacion aherea</a></li>
+    <li><a id="e2" href="#">ing desarrollador en martes</a></li>
+ 
+</ul>
+  </div>
+ 
+
 </article>
 <footer >
   <h4>Datos de contacto </h4>
-  <ul><li><a href="#"> 0000robaron</a></li></ul>
+  <ul><li>Tel: <a id="tel" href="#" style="color: white;"> 0000robaron</a></li></ul>
  
-  <p style=" display: flex;  align-items: center;  justify-content: center;">&#169; 2022 andres G</p>
+  <p id="fooo" style=" display: flex;  align-items: center;  justify-content: center; color:#eee;">&#169; 2022 andres G</p>
 </footer>
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+
 </body>
 </html>
