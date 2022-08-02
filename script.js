@@ -20,7 +20,7 @@
     document.getElementById("ima").setAttribute("src", "1644188852_git.jpg");
   }
   function Mycolor1() {
-    document.body.style.backgroundColor = 'blue';
+    document.body.style.backgroundColor = 'indigo';
     document.getElementById("info").innerHTML="yo Tachala etc..."
     document.getElementById("tel").innerHTML="555555"
     document.getElementById("e1").innerHTML=" desarrollador "
