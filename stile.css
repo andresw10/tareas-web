@@ -15,12 +15,27 @@ h1{
 nav{
   display: flex;  align-items: center;  justify-content: space-evenly;background-color: #eee;
 }
+button:active
+{
+  background-color: rgb(174, 20, 20);
+  border-color: aliceblue;
+  width: auto;
+  height: 30px;
+}
 button:hover
 {
   background-color: rgb(210, 210, 210);
   border-color: aliceblue;
   width: auto;
   height: 30px;
+}
+.par{
+  
+  background-color:  olive;
+}
+.impar{
+  
+  background-color: green;
 }
 button
 {
