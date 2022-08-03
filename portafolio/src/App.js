@@ -11,7 +11,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Inicio from './components/Inicio';
 import Bla from './components/pseint';
-import Parametros from './components/Parametros';
+
 import User from './components/java';
 import Nav from 'react-bootstrap/Nav'
 function App() {
