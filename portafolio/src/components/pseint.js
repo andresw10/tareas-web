@@ -36,6 +36,31 @@ import Pseint_talle4_punto2 from "./../image/Pseint/Pseint_talle4_punto2.png"
 import Pseint_talle4_punto3 from "./../image/Pseint/Pseint_talle4_punto3.png"
 import Pseint_talle4_punto4 from "./../image/Pseint/Pseint_talle4_punto4.png"
 import Pseint_talle4_punto5 from "./../image/Pseint/Pseint_talle4_punto5.png"
+import Pseint_talle5_punto1_1 from "./../image/Pseint/Pseint_talle5_punto1,1.png"
+import Pseint_talle5_punto1_2 from "./../image/Pseint/Pseint_talle5_punto1,2.png"
+import Pseint_talle5_punto1_3 from "./../image/Pseint/Pseint_talle5_punto1,3.png"
+import Pseint_talle5_punto1_4 from "./../image/Pseint/Pseint_talle5_punto1,4.png"
+import Pseint_talle5_punto1_5 from "./../image/Pseint/Pseint_talle5_punto1,5.png"
+import Pseint_talle5_punto1_6 from "./../image/Pseint/Pseint_talle5_punto1,6.png"
+import Pseint_talle5_punto1_7 from "./../image/Pseint/Pseint_talle5_punto1,7.png"
+import Pseint_talle5_punto1_8 from "./../image/Pseint/Pseint_talle5_punto1,8.png"
+import Pseint_talle5_punto1_9 from "./../image/Pseint/Pseint_talle5_punto1,9.png"
+import Pseint_talle5_punto1_10 from "./../image/Pseint/Pseint_talle5_punto1,10.png"
+import Pseint_talle5_punto1_11 from "./../image/Pseint/Pseint_talle5_punto1,11.png"
+import Pseint_talle5_punto1_12 from "./../image/Pseint/Pseint_talle5_punto1,12.png"
+import Pseint_talle5_punto1_13 from "./../image/Pseint/Pseint_talle5_punto1,13.png"
+import Pseint_talle5_punto1_14 from "./../image/Pseint/Pseint_talle5_punto1,14.png"
+import Pseint_talle5_punto1_15 from "./../image/Pseint/Pseint_talle5_punto1,15.png"
+import Pseint_talle5_punto1_16 from "./../image/Pseint/Pseint_talle5_punto1,16.png"
+import Pseint_talle5_punto2_1 from "./../image/Pseint/Pseint_talle5_punto2,1.png"
+import Pseint_talle5_punto2_2 from "./../image/Pseint/Pseint_talle5_punto2,2.png"
+import Pseint_talle5_punto2_3 from "./../image/Pseint/Pseint_talle5_punto2,3.png"
+import Pseint_talle5_punto2_4 from "./../image/Pseint/Pseint_talle5_punto2,4.png"
+import Pseint_talle5_punto2_5 from "./../image/Pseint/Pseint_talle5_punto2,5.png"
+import Pseint_talle5_punto2_6 from "./../image/Pseint/Pseint_talle5_punto2,6.png"
+import Pseint_talle5_punto3_1 from "./../image/Pseint/Pseint_talle5_punto3,1.png"
+import Pseint_talle5_punto3_2 from "./../image/Pseint/Pseint_talle5_punto3,2.png"
+import Pseint_talle5_punto3_3 from "./../image/Pseint/Pseint_talle5_punto3,3.png"
 import tabla from "./../image/tabla.png"
 
 import figura1 from "./../image/figura_1.png"
@@ -111,6 +136,10 @@ function pseint() {
               </Accordion>
               </li>
             </ol>
+            <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
+      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p style={{ "height": "20px" }}></p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -258,6 +287,10 @@ function pseint() {
                 </Accordion>
                </li>
             </ol>
+            <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
+      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p style={{ "height": "20px" }}></p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
@@ -384,6 +417,10 @@ function pseint() {
                 </li>
 
             </ol>
+            <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
+      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p style={{ "height": "20px" }}></p>
        
           </Accordion.Body>
         </Accordion.Item>
@@ -498,6 +535,10 @@ function pseint() {
                 </Accordion>
               </li>
             </ol>
+            <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
+      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p style={{ "height": "20px" }}></p>
 
 
 
@@ -517,7 +558,24 @@ function pseint() {
 
                     </Accordion.Header>
                     <Accordion.Body>
-                  
+                    
+                   
+                    <img src={Pseint_talle5_punto1_1}></img><br></br>
+                    <img src={Pseint_talle5_punto1_2}></img><br></br>
+                    <img src={Pseint_talle5_punto1_3}></img><br></br>
+                    <img src={Pseint_talle5_punto1_4}></img><br></br>
+                    <img src={Pseint_talle5_punto1_5}></img><br></br>
+                    <img src={Pseint_talle5_punto1_6}></img><br></br>
+                    <img src={Pseint_talle5_punto1_7}></img><br></br>
+                    <img src={Pseint_talle5_punto1_8}></img><br></br>
+                    <img src={Pseint_talle5_punto1_9}></img><br></br>
+                    <img src={Pseint_talle5_punto1_10}></img><br></br>
+                    <img src={Pseint_talle5_punto1_11}></img><br></br>
+                    <img src={Pseint_talle5_punto1_12}></img><br></br>
+                    <img src={Pseint_talle5_punto1_13}></img><br></br>
+                    <img src={Pseint_talle5_punto1_14}></img><br></br>
+                    <img src={Pseint_talle5_punto1_15}></img><br></br>
+                    <img src={Pseint_talle5_punto1_16}></img>
 
                     </Accordion.Body>
                   </Accordion.Item>
@@ -531,7 +589,12 @@ function pseint() {
 
                     </Accordion.Header>
                     <Accordion.Body>
-                  
+                    <img src={Pseint_talle5_punto2_1}></img><br></br>
+                    <img src={Pseint_talle5_punto2_2}></img><br></br>
+                    <img src={Pseint_talle5_punto2_3}></img><br></br>
+                    <img src={Pseint_talle5_punto2_4}></img><br></br>
+                    <img src={Pseint_talle5_punto2_5}></img><br></br>
+                    <img src={Pseint_talle5_punto2_6}></img>
 
                     </Accordion.Body>
                   </Accordion.Item>
@@ -546,7 +609,9 @@ function pseint() {
 
                     </Accordion.Header>
                     <Accordion.Body>
-                  
+                    <img src={Pseint_talle5_punto3_1}></img><br></br>
+                    <img src={Pseint_talle5_punto3_2}></img><br></br>
+                    <img src={Pseint_talle5_punto3_3}></img>
 
                     </Accordion.Body>
                   </Accordion.Item>
@@ -554,12 +619,15 @@ function pseint() {
                 
            </li>
             </ol>
+            <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
+      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p style={{ "height": "20px" }}></p>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
-      <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
-      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p style={{ "height": "20px" }}></p>
+     
+     
 
     </>
   );

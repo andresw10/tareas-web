@@ -45,7 +45,9 @@ function Inicio() {
 
 
   <h4>Datos de contacto </h4>
-  <ul><li><a href="#"> 0000robaron</a></li></ul>
+  <ul><li><a href="#"> 3113894327</a></li></ul>
+  <ul><li><a href="#"> pipe0j0@gmail.com</a></li></ul>
+
  
   <p>&#169; 2022 <a>andres G</a></p>
 

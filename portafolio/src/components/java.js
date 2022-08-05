@@ -43,6 +43,7 @@ import Pseint_talle4_punto2 from "./../image/java/taller4_punto2.png"
 import Pseint_talle4_punto3 from "./../image/java/taller4_punto3.png"
 import Pseint_talle4_punto4 from "./../image/java/taller4_punto4.png"
 import Pseint_talle4_punto5 from "./../image/java/taller4_punto5.png"
+
 import tabla from "./../image/tabla.png"
 
 import figura1 from "./../image/figura_1.png"
@@ -118,6 +119,10 @@ function java() {
               </Accordion>
               </li>
             </ol>
+            <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
+      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p style={{ "height": "20px" }}></p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -266,6 +271,10 @@ function java() {
                 </Accordion>
                </li>
             </ol>
+            <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
+      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p style={{ "height": "20px" }}></p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
@@ -396,6 +405,10 @@ function java() {
                 </li>
 
             </ol>
+            <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
+      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p style={{ "height": "20px" }}></p>
        
           </Accordion.Body>
         </Accordion.Item>
@@ -511,25 +524,16 @@ function java() {
               </li>
             </ol>
 
+            <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
+      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+      <p style={{ "height": "20px" }}></p>
 
           </Accordion.Body>
           
         </Accordion.Item>
       </Accordion>
-      <h1 style={{ "display": "flex", "alignItems": "center", "justify-content": "center" }} >Video</h1>
-      <iframe style={{ "display": "block", "margin": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/EzcimwRD08I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-
-
-
-
-
-
-      <p style={{ "height": "20px" }}></p>
+     
     </>
   );
 }
