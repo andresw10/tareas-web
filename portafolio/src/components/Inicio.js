@@ -38,7 +38,7 @@ function Inicio() {
   </ul>
   <h4> <b>Estudios realizados</b> </h4> 
   <ul>
-      <li><a href="#">ing padimentacion aherea</a></li>
+      <li><a href="#">ing pavimentacion aerea</a></li>
       <li><a href="#">ing desarrollador en martes</a></li>
     
   </ul>

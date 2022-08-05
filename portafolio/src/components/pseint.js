@@ -1,5 +1,50 @@
-import image from "./../image/tabla.png";
 import Accordion from 'react-bootstrap/Accordion';
+import Pseint_talle1_punto1 from "./../image/Pseint/Pseint_talle1_punto1.png"
+import Pseint_talle1_punto2 from "./../image/Pseint/Pseint_talle1_punto2.png"
+import Pseint_talle1_punto3 from "./../image/Pseint/Pseint_talle1_punto3.png"
+import Pseint_talle1_punto4 from "./../image/Pseint/Pseint_talle1_punto4.png"
+import Pseint_talle1_punto5 from "./../image/Pseint/Pseint_talle1_punto5.png"
+import Pseint_talle2_punto1 from "./../image/Pseint/Pseint_talle2_punto1.png"
+import Pseint_talle2_punto2 from "./../image/Pseint/Pseint_talle2_punto2.png"
+import Pseint_talle2_punto3 from "./../image/Pseint/Pseint_talle2_punto3.png"
+import Pseint_talle2_punto4_parte1 from "./../image/Pseint/Pseint_talle2_punto4_parte1.png"
+import Pseint_talle2_punto4_parte2 from "./../image/Pseint/Pseint_talle2_punto4_parte2.png"
+import Pseint_talle2_punto4_parte3 from "./../image/Pseint/Pseint_talle2_punto4_parte3.png"
+import Pseint_talle2_punto5_parte1 from "./../image/Pseint/Pseint_talle2_punto5_parte1.png"
+import Pseint_talle2_punto5_parte2 from "./../image/Pseint/Pseint_talle2_punto5_parte2.png"
+import Pseint_talle2_punto5_parte3 from "./../image/Pseint/Pseint_talle2_punto5_parte3.png"
+import Pseint_talle2_punto6_parte1 from "./../image/Pseint/Pseint_talle2_punto6_parte1.png"
+import Pseint_talle2_punto6_parte2 from "./../image/Pseint/Pseint_talle2_punto6_parte2.png"
+import Pseint_talle2_punto7 from "./../image/Pseint/Pseint_talle2_punto7.png"
+import Pseint_talle2_punto8 from "./../image/Pseint/Pseint_talle2_punto8.png"
+import Pseint_talle2_punto9 from "./../image/Pseint/Pseint_talle2_punto9.png"
+import Pseint_talle2_punto10_parte1 from "./../image/Pseint/Pseint_talle2_punto10_parte1.png"
+import Pseint_talle2_punto10_parte2 from "./../image/Pseint/Pseint_talle2_punto10_parte2.png"
+import Pseint_talle3_punto1 from "./../image/Pseint/Pseint_talle3_punto1.png"
+import Pseint_talle3_punto2 from "./../image/Pseint/Pseint_talle3_punto2.png"
+import Pseint_talle3_punto3 from "./../image/Pseint/Pseint_talle3_punto3.png"
+import Pseint_talle3_punto4 from "./../image/Pseint/Pseint_talle3_punto4.png"
+import Pseint_talle3_punto5 from "./../image/Pseint/Pseint_talle3_punto5.png"
+import Pseint_talle3_punto6_parte1 from "./../image/Pseint/Pseint_talle3_punto6_1.png"
+import Pseint_talle3_punto6_parte2 from "./../image/Pseint/Pseint_talle3_punto6_2.png"
+import Pseint_talle3_punto6_parte3 from "./../image/Pseint/Pseint_talle3_punto6_3.png"
+import Pseint_talle3_punto7_parte1 from "./../image/Pseint/Pseint_talle3_punto7.png"
+import Pseint_talle3_punto7_parte2 from "./../image/Pseint/Pseint_talle3_punto7_1.png"
+import Pseint_talle3_punto8 from "./../image/Pseint/Pseint_talle3_punto8.png"
+import Pseint_talle4_punto1 from "./../image/Pseint/Pseint_talle4_punto1.png"
+import Pseint_talle4_punto2 from "./../image/Pseint/Pseint_talle4_punto2.png"
+import Pseint_talle4_punto3 from "./../image/Pseint/Pseint_talle4_punto3.png"
+import Pseint_talle4_punto4 from "./../image/Pseint/Pseint_talle4_punto4.png"
+import Pseint_talle4_punto5 from "./../image/Pseint/Pseint_talle4_punto5.png"
+import tabla from "./../image/tabla.png"
+
+import figura1 from "./../image/figura_1.png"
+import figura2 from "./../image/figura_2.png"
+import figura3 from "./../image/figura_3.png"
+import figura4 from "./../image/figura_4.png"
+import figura5 from "./../image/figura_5.png"
+
+
 function pseint() {
   return (
     <>
@@ -17,57 +62,54 @@ function pseint() {
                     <Accordion.Header>Realizar un programa el cual solicite su nombre y apellidos.</Accordion.Header>
                     <Accordion.Body>
 
-                      <pre> <code> {'public class Punto1 {'}  </code>         </pre>
-                      <pre>  {'  private static String nombre;'}           </pre>
-                      <pre>  {'  private static String apellido1;'}           </pre>
-                      <pre>  {'  private static String apellido2;'}           </pre>
-                      <pre>  {' public static void main(String[] args) {'}           </pre>
-                      <pre>  {'  Scanner  input=new Scanner(System.in);'}           </pre>
-                      <pre>  {'  System.out.println("Digite nombre:");'}           </pre>
-                      <pre>  {'  nombre=input.next();'}           </pre>
-                      <pre>  {'  apellido1=input.next();'}           </pre>
-                      <pre>  {'  System.out.println("Digite segundo apellido:");'}           </pre>
-                      <pre>  {'  apellido2=input.next();'}           </pre>
-                      <pre>  {' }'}           </pre>
-                      <pre>  {'}'}           </pre>
-
-
-
+                      <img src={Pseint_talle1_punto1}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
               </li>
-              <li>     <Accordion defaultActiveKey="1">
+              <li>     
+                <Accordion defaultActiveKey="1">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Realizar un programa el cual solicite su nombre, apellidos, edad y estatura.</Accordion.Header>
                   <Accordion.Body>
+                  <img src={Pseint_talle1_punto2}></img>
                   </Accordion.Body>
                 </Accordion.Item>
-              </Accordion></li>
-              <li>     <Accordion defaultActiveKey="1">
+              </Accordion>
+              </li>
+              <li>    
+                 <Accordion defaultActiveKey="1">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Realizar un programa el cual solicite su nombre y apellidos, también debe capturar nombre y apellidos de su padre y madre. Al finalizar debe imprimir en pantalla el siguiente
                     mensaje "Yo [Nombre Completo], soy hijo de [Nombre de la Madre] y [Nombre del Padre].</Accordion.Header>
                   <Accordion.Body>
+                  <img src={Pseint_talle1_punto3}></img>
                   </Accordion.Body>
                 </Accordion.Item>
-              </Accordion></li>
-              <li>     <Accordion defaultActiveKey="1">
+              </Accordion>
+              </li>
+              <li> 
+                    <Accordion defaultActiveKey="1">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Realizar un programa el cual solicite el nombre de una ciudad capital y el país. Al finalizar debe imprimir en pantalla el siguiente mensaje "La ciudad [Nombre de la Ciudad],
                     es la capital del país [Nombre del País]</Accordion.Header>
                   <Accordion.Body>
+                  <img src={Pseint_talle1_punto4}></img>
                   </Accordion.Body>
                 </Accordion.Item>
-              </Accordion></li>
-              <li>     <Accordion defaultActiveKey="1">
+              </Accordion>
+              </li>
+              <li>  
+                   <Accordion defaultActiveKey="1">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Realizar un programa el cual solicite el nombre de su mascota, edad de la mascota, el tipo de mascota y su nombre completo. Al finalizar el sistema debe e imprimir en pantalla
                     el siguiente mensaje: [Nombre de Mascota] es un(a) [Tipo de Mascota], el cual, tiene [Edad de la Mascota] años de edad y [Nombre Completo] es actualmente su dueño(a).</Accordion.Header>
                   <Accordion.Body>
+                  <img src={Pseint_talle1_punto5}></img>
                   </Accordion.Body>
                 </Accordion.Item>
-              </Accordion></li>
+              </Accordion>
+              </li>
             </ol>
           </Accordion.Body>
         </Accordion.Item>
@@ -82,31 +124,33 @@ function pseint() {
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>Realizar un programa en el cual se solicite la edad de una persona. Si la persona es mayor o igual a 18 años, deberá mostrar en pantalla: Usted es mayor de edad.</Accordion.Header>
                     <Accordion.Body>
-
+                    <img src={Pseint_talle2_punto1}></img>
                   
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
                 </li>
                 
-              <li><Accordion defaultActiveKey="1">
+              <li>
+                <Accordion defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>Realizar un programa en el cual se solicite la edad de una persona. Si la persona es menor a 18 años, deberá mostrar en pantalla: Usted aún es un niño(a).</Accordion.Header>
                     <Accordion.Body>
 
-                  
+                    <img src={Pseint_talle2_punto2}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
                 </li>
-              <li><Accordion defaultActiveKey="1">
+              <li>
+                <Accordion defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header> Realizar un programa en el cual se solicite el nombre, apellidos y edad de la persona. Si la persona es mayor o igual a 18 años, entonce se deberá imprimir en pantalla
                 [Nombre completo] usted es mayor de edad, por lo tanto puede entrar a la fiesta. Si la edad de la persona es menor que
                 18 años, entonces, deberá imprimirse el siguiente mensaje: [Nombre completo] usted es menor de edad, por lo tanto, no puede
                   entrar a la fiesta, por favor devuélvase a su casa.</Accordion.Header>
                     <Accordion.Body>
-
+                    <img src={Pseint_talle2_punto3}></img>
                   
                     </Accordion.Body>
                   </Accordion.Item>
@@ -121,18 +165,24 @@ function pseint() {
                 tienda&nbsp;con la opción de realizar anotaciones sobre estas si se llegan a&nbsp;presentar daños u otra novedad sobre la película.</Accordion.Header>
                     <Accordion.Body>
 
-                  
+                    <img src={Pseint_talle2_punto4_parte1}></img><br></br>
+                    <img src={Pseint_talle2_punto4_parte2}></img><br></br>
+                    <img src={Pseint_talle2_punto4_parte3}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
                 </li>
-              <li><Accordion defaultActiveKey="1">
+              <li>
+                <Accordion defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header> La Droguería Mi Salud presta sus servicios en la localidad de Suba y requiere una aplicación para poder facturar los productos que vende a sus clientes y para ello, los
                 productos tienen unas características que deben indicársele al cliente para que pueda escoger el producto a comprar.&nbsp;Para cada cliente, se tienen las opciones de compra de
                 producto, consulta de precios por producto y devoluciones en caso de que se presenten.</Accordion.Header>
                     <Accordion.Body>
 
+                    <img src={Pseint_talle2_punto5_parte1}></img><br></br>
+                    <img src={Pseint_talle2_punto5_parte2}></img><br></br>
+                    <img src={Pseint_talle2_punto5_parte3}></img>
                   
                     </Accordion.Body>
                   </Accordion.Item>
@@ -146,6 +196,8 @@ function pseint() {
                 salida del taller con las novedades y otra de arreglos hechos por el mecánico en caso de que se requiera inventariar cambios repuestos en la motocicleta al entregarla.</Accordion.Header>
                     <Accordion.Body>
 
+                    <img src={Pseint_talle2_punto6_parte1}></img><br></br>
+                    <img src={Pseint_talle2_punto6_parte2}></img>
                   
                     </Accordion.Body>
                   </Accordion.Item>
@@ -159,6 +211,8 @@ function pseint() {
                 sobrepeso y obeso).</Accordion.Header>
                     <Accordion.Body>
 
+                    <img src={Pseint_talle2_punto7}></img>
+                   
                   
                     </Accordion.Body>
                   </Accordion.Item>
@@ -171,7 +225,7 @@ function pseint() {
                 Cada torta tiene unas características propias como sabor, cantidad (porciones) y decoraciones). Se requiere que la aplicación permita registrar los pedidos, las tortas disponibles
                 y las ventas que se registren diariamente.</Accordion.Header>
                     <Accordion.Body>
-
+                    <img src={Pseint_talle2_punto8}></img>
                   
                     </Accordion.Body>
                   </Accordion.Item>
@@ -184,7 +238,7 @@ function pseint() {
                 facilite el ejercicio solicitándole los valores al estudiante. La aplicación debe permitir que el estudiante seleccione si desea calcular el área de un rectángulo, triángulo o
                 trapecio. No olvide solicitar los datos necesarios para realizar cada cálculo y mostrar su respectivo resultado.</Accordion.Header>
                     <Accordion.Body>
-
+                    <img src={Pseint_talle2_punto9}></img>
                   
                     </Accordion.Body>
                   </Accordion.Item>
@@ -197,8 +251,8 @@ function pseint() {
                 cuenta tenga los atributos titular y cantidad. Para cada cliente las cuentas permitirán realizar ingresos, retiros o consultas de valor. En los ingresos no se pueden insertar
                 valores negativos y para los retiros el valor no puede ser mayor al valor que tiene en la cuenta.</Accordion.Header>
                     <Accordion.Body>
-
-                  
+                    <img src={Pseint_talle2_punto10_parte1}></img><br></br>
+                    <img src={Pseint_talle2_punto10_parte2}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -218,33 +272,36 @@ function pseint() {
                     <Accordion.Header>Realizar la siguiente figura por medio del ciclo <span style={{ "font-weight": "bold" }}> Para</span></Accordion.Header>
                     <Accordion.Body>
                     <ul>
-                <li style={{ "text-align": "left" }}><img src={"https://cdn.talentlms.com/sofkauniversity/1643643915_01.%20Taller%20Ciclos.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2Nkbi50YWxlbnRsbXMuY29tXC9zb2ZrYXVuaXZlcnNpdHlcLzE2NDM2NDM5MTVfMDEuJTIwVGFsbGVyJTIwQ2ljbG9zLnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1OTU3MTIwMH19fV19&Signature=Qtc8rDYhPgDD%2FFLtHXYZQMJPYLPMJxw2JUkBaCfsNU04Q-oEsYs9So8b1cUCAJZl3jptPBJBdhKZNhnVlQg9-sB3SAQ7dfDrdHVG-kVOVHgwzrtDvz-FZlaTZtC4CChDso4q74s1hTjMx%2FprqEbUI2SODCeMx3UyJNWZdI-o4wLfyPfw63Rbl5mMnZ683vZOMnDQsEzVjf%2FKxl32DtVa7yuJoRNX4H0SJKFSjSg4e8KfZs2Lh0Oe0gSvIXJ6hH8cQxNrjsSEZq%2FgEAP8BmUuiZeoAXpVHYoDgTGjfSgVEg-CHGz1lyHUiCLUdf5saFeHpPHV1h1ffZGccku-ctCpcQ__&Key-Pair-Id=APKAJDCWVQTW4P3KI3XA"} style={{ "width": "82px" }} /></li>
+                <li style={{ "text-align": "left" }}><img src={figura1} /></li>
               </ul>
-                  
+              <img src={Pseint_talle3_punto1}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
                 </li>
                 
-              <li><Accordion defaultActiveKey="1">
+              <li>
+                <Accordion defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>Realizar la siguiente figura por medio del ciclo <span style={{ "font-weight": "bold" }}>Mientras - Hacer</span></Accordion.Header>
                     <Accordion.Body>
                     <ul>
-                <li><img src={"https://cdn.talentlms.com/sofkauniversity/1643644021_02.%20Taller%20Ciclos.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2Nkbi50YWxlbnRsbXMuY29tXC9zb2ZrYXVuaXZlcnNpdHlcLzE2NDM2NDQwMjFfMDIuJTIwVGFsbGVyJTIwQ2ljbG9zLnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1OTU3MTIwMH19fV19&Signature=GhmXaJsJOB2rLLUDrFZOusBoDkFYlctb0eiMEjbAXnk5CiSLwzgcbz%2FynHv3y1BwsOvAgCZc4XCTfbNnuWapVztd2QYPGamUfYP7oMDQONDnpxsMvfovb4efcl4AtkGiRs2YDGI--mfW0dEMGgVDRL2mx-Ou1fWnRKJDC5wyjfwcLoCGSVjKF95xVCrcorBLhUnLPGnHv6tWOBDvkcKjlRMjF09XLafvbx7aPfdr0nSQYPOnhuvpI0qL9sTihDZcPo%2FarJa6pEslk-DlhOYD1bMc%2F9d-3s8lP8KwtvrNnCs8sEtIv2PWRyTeN6qx30xzpR5HzavTQ6GUGqyEmlaK9w__&Key-Pair-Id=APKAJDCWVQTW4P3KI3XA"} style={{ "width": "84px;" }} /></li>
+                <li><img src={figura2} /></li>
               </ul>
+              <img src={Pseint_talle3_punto2}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
                 </li>
-              <li><Accordion defaultActiveKey="1">
+              <li>
+                <Accordion defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header> Realizar la siguiente figura por medio del ciclo Repetir - <span style={{ "font-weight": "bold" }}>Hasta Que</span></Accordion.Header>
                     <Accordion.Body>
                     <ul>
-                <li><img src={"https://cdn.talentlms.com/sofkauniversity/1643644087_03.%20Taller%20Ciclos.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2Nkbi50YWxlbnRsbXMuY29tXC9zb2ZrYXVuaXZlcnNpdHlcLzE2NDM2NDQwODdfMDMuJTIwVGFsbGVyJTIwQ2ljbG9zLnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1OTU3MTIwMH19fV19&Signature=CCqP%2FdoAtMsQc80qYBuKu1QM2YdiMqNb3YMDuEwwwWukwsTZz3Xx5x7-V4xcV9iEQmSeJXfhxeQ3m%2FcWr1TM9EhV3GVaYT6urWkqvQtm1-wdznOWdQR-iT2k6IGmcO4-WgeDzOiFKMOJ0Fqr0aA5mUJXjsLUxRRWiWd%2FiW%2FlWfX0JIpNAprTtu2nbt8W7Ur%2FT-XVkKjWeLV2w%2F%2FFg5viXrRhT6pxxemdEMcp4hKFYMpI5D13ypPJEMj%2FR8cY9Tq6mZymuAIWtMXdgCUHzHX1zEDqwneDJuccs0uPrJUjaZnsYb7MBSYC0JbqJrp2g1fILe-b79kDw4Gyrn7A7DZ%2FtQ__&Key-Pair-Id=APKAJDCWVQTW4P3KI3XA"} style={{ "width": " 173px" }} /></li>
+                <li><img src={figura3}  /></li>
               </ul>
-                  
+              <img src={Pseint_talle3_punto3}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -258,21 +315,23 @@ function pseint() {
                     <Accordion.Body>
 
                     <ul>
-                <li><img src={"https://cdn.talentlms.com/sofkauniversity/1643644382_04.%20Taller%20Ciclos.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2Nkbi50YWxlbnRsbXMuY29tXC9zb2ZrYXVuaXZlcnNpdHlcLzE2NDM2NDQzODJfMDQuJTIwVGFsbGVyJTIwQ2ljbG9zLnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1OTU3MTIwMH19fV19&Signature=jn4heOz4zzwvAU3TAElGpYSiLdkrt-Iz-2v1gXT%2Fpj-Br7-4iRW5biNkYPjQDEn92v9CVU0Jn6k3Rh%2FWq-nulnCIIAQZj8Xo%2FtcpbfC1i5etk3IQ%2FyqBfA79U3NBS-g4Dta4GX8udMqEQYQqdi8T65mwA1026gf8pIp0l7DNOzdEqZa7f0drkHgC54tnBm74rVFExwlXDqQJzwhluLcj9JwKz60MwSXVKg0xs9x3wMxmcq9rmaWg80MTitdRs73Y%2FyjmyZVdFY2-XGZoaGCdKp023vpvw3FXxQQ%2F-%2Fw82TN1LwPoH7lz24tyUEt2WsAxj-uPjzxJkKhU7RwiSuPGcQ__&Key-Pair-Id=APKAJDCWVQTW4P3KI3XA"} style={{ "width": "90px" }} /></li>
+                <li><img src={figura4}/></li>
               </ul>
-              
+              <img src={Pseint_talle3_punto4}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
                 </li>
-              <li><Accordion defaultActiveKey="1">
+              <li>
+                <Accordion defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header> Utilizando el ciclo que usted desee, crear un menú de ejecución infinita hasta que el usuario desee terminar dicho ciclo.</Accordion.Header>
                     <Accordion.Body>
 
                     <ul>
-                <li><img src={"https://cdn.talentlms.com/sofkauniversity/1643644509_05.%20Taller%20Ciclos.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2Nkbi50YWxlbnRsbXMuY29tXC9zb2ZrYXVuaXZlcnNpdHlcLzE2NDM2NDQ1MDlfMDUuJTIwVGFsbGVyJTIwQ2ljbG9zLnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1OTU3MTIwMH19fV19&Signature=c3znjUkFnnu2iZah6lgagudVN-J-iV4wV8plybv7aO1xnZ0x4bwfX1xefNSMtVkgcPOjM-aPxEhmRXfiRTz3UtpJ00C6mKts%2FzgME3ib2MlR7HtSicU-o-R1CcAZ3CIx68g9IjVUW-eLLw1TRGazzPXutQEvOmZfTj14ck0UDblM3beeW4F6nvYtATBYTMjyAEMpsBiCF47X20cqJ-kxYP9fs0Xlba6CSFENiIksmFMuO-cMrAdV0%2FOqXWmQLuvUBC%2Fq77F4ZGlfX5yXd8f2WxX6xZf-mujTJ84h%2FurRCLlp8Ar0zISxymz5vkfGyhVqTHrt44at%2FEkZ3piF8gRqfg__&Key-Pair-Id=APKAJDCWVQTW4P3KI3XA"} style={{ "width": "163px" }} /></li>
+                <li><img src={figura5} style={{ "width": "163px" }} /></li>
               </ul>
+              <img src={Pseint_talle3_punto5}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -285,7 +344,9 @@ function pseint() {
                 eliminar contactos si el usuario lo requiere. Recuerde que el sistema debe terminar cuando el usuario así lo indique.</Accordion.Header>
                     <Accordion.Body>
 
-                  
+                    <img src={Pseint_talle3_punto6_parte1}></img><br></br>
+                    <img src={Pseint_talle3_punto6_parte2}></img><br></br>
+                    <img src={Pseint_talle3_punto6_parte3}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -299,7 +360,8 @@ function pseint() {
                 el sistema debe terminar cuando el usuario así lo indique. Tenga en presente que el parqueadero solo puede almacenar máximo 5 vehículos.</Accordion.Header>
                     <Accordion.Body>
 
-                  
+                    <img src={Pseint_talle3_punto7_parte1}></img><br></br>
+                    <img src={Pseint_talle3_punto7_parte2}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -313,7 +375,8 @@ function pseint() {
                 presentado el curso y resultados de la prueba del curso (si fueron aprobados o no). Recuerde que el sistema debe terminar cuando el usuario así lo indique. Tenga presente que la
                 escuela tiene capacidad máxima de gestionar 8 usuarios en su totalidad.</Accordion.Header>
                     <Accordion.Body>
-
+                    <img src={Pseint_talle3_punto8}></img>
+                  
                   
                     </Accordion.Body>
                   </Accordion.Item>
@@ -346,7 +409,7 @@ function pseint() {
 
                       </ul> <br></br>
                  
-
+                      <img src={Pseint_talle4_punto1}></img>
 
                     </Accordion.Body>
                   </Accordion.Item>
@@ -364,7 +427,7 @@ function pseint() {
                         <li><a> Números impares: 1, 3, 5, 7, 9</a></li>
 
                       </ul> <br></br>
-           
+                      <img src={Pseint_talle4_punto2}></img>
 
 
                     </Accordion.Body>
@@ -378,7 +441,7 @@ function pseint() {
                       <a>Imprimir los números primos del 1 al 1000, el resultado debe ser buscado de forma matemática.</a>
                     </Accordion.Header>
                     <Accordion.Body>
-                      
+                    <img src={Pseint_talle4_punto3}></img>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -390,6 +453,7 @@ function pseint() {
 
                     </Accordion.Header>
                     <Accordion.Body>
+
                     <ul>
                   <li><a>01 02 03 04 05</a></li>
                   <li><a>06 07 08 09 10  </a></li>
@@ -402,7 +466,7 @@ function pseint() {
                   <li><a>20 19 18 17 16  </a></li>
                 </ul> <br></br>
                 
-
+                <img src={Pseint_talle4_punto4}></img>
 
 
                     </Accordion.Body>
@@ -418,7 +482,7 @@ function pseint() {
                     <Accordion.Body>
                       <ul>
                       <li>
-                    <img src={"https://cdn.talentlms.com/sofkauniversity/1644205032_14.%20taller.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2Nkbi50YWxlbnRsbXMuY29tXC9zb2ZrYXVuaXZlcnNpdHlcLzE2NDQyMDUwMzJfMTQuJTIwdGFsbGVyLnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1OTU3MTIwMH19fV19&Signature=f9J0ntEEi7wYnYAAn7COd7LG1NE78V7O5HlfmRoM9WD6iO-MkBkVu6x%2FVmASDu7diG5aQRqj6ryeL-1IPv55evCQ0gluhv5dJyLlLBJlR0ruFWgGAvqSvT6FycXDr-OH7FFJz35KtHs3hwiqUWxxEoB6rJZgqQFyTSHbP0xtIawgJfAM67iMjwSpcldBGQ04LTqGsc79sb-HNYyquyrCpu7uqJs3cK1cFbvPn4qqISB-xxWUeU1k2IcmRwokmSHrjc1Tmizm6-V9BoP3a5a6ZVTOc%2FPfXcXUGh4PmuHQ4EG2aadx9vYF-ujNHAZvKyHDSyEjcDa5uVrGoRbMgeLVFw__&Key-Pair-Id=APKAJDCWVQTW4P3KI3XA"}></img>
+                    <img src={tabla}></img>
                   </li>
                   <li>
                     <a>El usuario deberá insertar la fila y columna de la cual desea ver el resultado, el resultado de cada celda debe estar previamente calculado en una matriz bidimensional la cual cada resultado obedecerá a la fila y columna insertada por el usuario.</a>
@@ -427,7 +491,7 @@ function pseint() {
                       </ul> <br></br>
                    
 
-
+                      <img src={Pseint_talle4_punto5}></img>
 
                     </Accordion.Body>
                   </Accordion.Item>
@@ -438,6 +502,7 @@ function pseint() {
 
 
           </Accordion.Body>
+          
         </Accordion.Item>
         <Accordion.Item eventKey="4">
           <Accordion.Header>Taller de Funciones </Accordion.Header>
