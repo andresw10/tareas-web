@@ -11,7 +11,7 @@ function Inicio() {
 <img src={image}></img>
  
   <h3> <b>Información principal</b> </h3>
-  <p>yo Andre  etc..</p>
+  <p>yo Andre Garcia s.  etc..</p>
 
  
 
